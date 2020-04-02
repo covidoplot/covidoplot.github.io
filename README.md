@@ -1,2 +1,1 @@
-# sitegenerator
-Generating the static site
+Static files for to publish: https://covidoplot.github.io
