@@ -1,0 +1,1 @@
+Sitemap: https://covidoplot.github.io/sitemap.xml
