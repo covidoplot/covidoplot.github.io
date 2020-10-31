@@ -18,15 +18,15 @@
 <meta property="og:url" content="http://localhost:4000/communes/beverungen.html" />
 <meta property="og:site_name" content="Covid 19 im Kreis Höxter" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2020-10-31T10:31:10+01:00" />
+<meta property="article:published_time" content="2020-10-31T21:13:42+01:00" />
 <meta name="google-site-verification" content="Jy9GjP1zJSZb24WTJkI5fc6zPYqWLYs0bo6EZXmsmKY" />
 <script type="application/ld+json">
-{"url":"http://localhost:4000/communes/beverungen.html","headline":"Beverungen","dateModified":"2020-10-31T10:31:10+01:00","datePublished":"2020-10-31T10:31:10+01:00","author":{"@type":"Person","name":"Elmar Hinz"},"description":"Daten und Diagramme zur Coronavirus-Krankheit 2019 in Beverungen","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/communes/beverungen.html"},"@type":"BlogPosting","@context":"https://schema.org"}</script>
+{"headline":"Beverungen","dateModified":"2020-10-31T21:13:42+01:00","datePublished":"2020-10-31T21:13:42+01:00","url":"http://localhost:4000/communes/beverungen.html","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/communes/beverungen.html"},"author":{"@type":"Person","name":"Elmar Hinz"},"description":"Daten und Diagramme zur Coronavirus-Krankheit 2019 in Beverungen","@type":"BlogPosting","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 </head>
 <body>
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-expand-lg navbar-light">
   <a class="navbar-brand" href="/">Covid 19 im Kreis Höxter</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -81,23 +81,22 @@
     </ul>
   </div>
 </nav>
+
 <main role="main">
-    <div class="jumbotron">
+    <div class="jumbotron bg-gradient-primary text-dark">
         <div class="container">
             <h1 class="display-4 page-title">Beverungen</h1>
         </div>
     </div>
     <div class="container">
-        
-
-
-<div class="container shadow mb-5 mt-4 p-3" id="today">
+        <div class="card" id="today">
     
     
     
     
+    <h2 class="card-header">31. Oktober 2020</h2>
     <table class="table table-bordered">
-        <caption><strong>Bestätigte Fälle in Beverungen am 31. Oktober 2020</strong>
+        <caption class=""><strong>Bestätigte Fälle in Beverungen am 31. Oktober 2020</strong>
             <dl>
     <dt>infektiös</dt>
     <dd>als aktiv infiziert gemeldet
@@ -116,7 +115,7 @@
 </dl>
 
         </caption>
-        <thead class="table-dark">
+        <thead class="thead-dark">
         <tr>
             <th class="">infektiös</th>
             <th class="">genesen</th>
@@ -127,48 +126,52 @@
         </thead>
         <tbody>
         <tr>
-            <td>5
+            <td class="table-secondary">5
                 
                  <span class="up">1</span> 
 
 
             </td>
-            <td>25
+            <td class="table-secondary">25
                 
                 
 
 
             </td>
-            <td>0
+            <td class="table-secondary">0
                 
                 
 
 
             </td>
-            <td class="table-secondary">30
+            <td class="table-primary"><strong>30
                 
                  <span class="up">1</span> 
 
 
+            </strong>
             </td>
-            <td class="table-primary">
-                15.3
+            <td class="table-secondary">
+                <em>15.3
                 
                 
  <span class="down">-15.3</span> 
 
+                </em>
             </td>
         </tr>
         </tbody>
     </table>
-    <p><a href="#numbers">mehr Zahlen ...</a></p>
+    <div class="card-footer"><a href="#numbers">mehr Zahlen ...</a></div>
 </div>
 
 
-<h2 id="summary">Wie viele Personen sind infiziert, genesen oder verstorben?</h2>
 
-<div id="overview">
-  <figure class="figure shadow mb-3 mt-4 p-3">
+
+
+<div class="card" id="overview">
+  <h2 class="card-header">Wie viele Personen sind infiziert, genesen oder verstorben?</h2>
+  <figure class="figure">
     <img src="/assets/plots/commune-beverungen-overview.png" class="figure-img img-fluid rounded" alt="Das Diagramm zeigt ein Übersicht der Verläufe.">
     <figcaption class="figure-caption">
       Bestätigte Fälle von Covid 19 in Beverungen
@@ -176,7 +179,7 @@
   </figure>
   
   
-  <div class="alert alert-info mb-5">
+  <div class="card-footer">
     <div class="float-left mr-3 mb-3">
         <a class ="float-left" rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a>
     </div>
@@ -188,14 +191,15 @@
 
 </div>
 
-<div id="stacked">
-  <figure class="figure shadow mb-3 mt-4 p-3">
-    <img src="/assets/plots/commune-beverungen-stacked.png" class="figure-img img-fluid rounded" alt="Das Diagramm zeigt einen Stackplot.">
-    <figcaption class="figure-caption">Aktive, genesene und Todesfälle ergeben zusammen alle bestätigten Infektionen.</figcaption>
-  </figure>
-  
-  
-  <div class="alert alert-info mb-5">
+<div class="card" id="stacked">
+    <h2 class="card-header">Wie viele Personen sind infiziert, genesen oder verstorben?</h2>
+    <figure class="figure">
+      <img src="/assets/plots/commune-beverungen-stacked.png" class="figure-img img-fluid rounded" alt="Das Diagramm zeigt einen Stackplot.">
+      <figcaption class="figure-caption">Aktive, genesene und Todesfälle ergeben zusammen alle bestätigten Infektionen.</figcaption>
+    </figure>
+    
+    
+    <div class="card-footer">
     <div class="float-left mr-3 mb-3">
         <a class ="float-left" rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a>
     </div>
@@ -207,16 +211,15 @@
 
 </div>
 
-<h2>Wie hoch ist das Infektionsrisiko im Vergleich?</h2>
-
-<div id="risc">
-  <figure class="figure shadow mb-3 mt-4 p-3">
-    <img src="/assets/plots/commune-beverungen-upwards-risc-comparism.png" class="figure-img img-fluid rounded" alt="Das Diagramm zeigt einen Risikovergleich.">
-    <figcaption class="figure-caption">Risiko in Beverungen im Vergleich</figcaption>
-  </figure>
-  
-  
-  <div class="alert alert-info mb-5">
+<div class="card" id="risc">
+    <h2 class="card-header">Wie hoch ist das Infektionsrisiko im Vergleich?</h2>
+    <figure class="figure">
+        <img src="/assets/plots/commune-beverungen-upwards-risc-comparism.png" class="figure-img img-fluid rounded" alt="Das Diagramm zeigt einen Risikovergleich.">
+        <figcaption class="figure-caption">Risiko in Beverungen im Vergleich</figcaption>
+    </figure>
+    
+    
+    <div class="card-footer">
     <div class="float-left mr-3 mb-3">
         <a class ="float-left" rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a>
     </div>
@@ -228,13 +231,11 @@
 
 </div>
 
-<h2 id="numbers">Wie sehen die Zahlen aus?</h2>
-
-<div id="numbers">
-    <div class="shadow mb-3 mt-4 p-3">
+<div class="card" id="numbers">
+    <h2 class="card-header">Wie sehen die Zahlen aus?</h2>
         <table class="table table-bordered table-hover table-sm">
-            <caption> Bestätigte Fälle in Beverungen</caption>
-            <thead class="thead-light">
+            <caption class=""><strong>Bestätigte Fälle in Beverungen</strong></caption>
+            <thead class="thead-dark">
             <tr>
                 <th>Datum</th>
                 <th>infektiös</th>
@@ -2248,9 +2249,8 @@
             
             </tbody>
         </table>
-    </div>
     
-    <div class="alert alert-info mb-5">
+    <div class="card-footer">
     <div class="float-left mr-3 mb-3">
         <a class ="float-left" rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a>
     </div>
@@ -2264,7 +2264,8 @@
 
 
 
-        <div class="alert alert-warning" role="alert">
+
+        <div class="alert alert-warning shadow-sm" role="alert">
             <h3>Bestätigte Fälle</h3>
             <p>
                 Die bestätigten Infektionen sind vermutlich nur der kleinere Teil aller Fälle.
@@ -2277,7 +2278,7 @@
                 sein kann, als es die Anzahl der bestätigten Fälle nahe legt.
             </p>
         </div>
-        <div class="alert alert-info" role="alert">
+        <div class="alert alert-info shadow-sm" role="alert">
             <h3>Covid 19, Sars-CoV-2 oder Coronavirus?</h3>
             <p>
                 <strong>Coronaviren</strong> sind eine Virusfamilie, zu der auch das Virus <strong>Sars-CoV-2</strong> gehört.
@@ -2294,7 +2295,7 @@
             </dl>
             <p>Fazit: Der umgangssprachliche Begriff Coronavirus ist sehr unpräzise.</p>
         </div>
-        <div class="alert alert-info" role="alert">
+        <div class="alert alert-info shadow-sm" role="alert">
             <h3>Quellen der Zahlen</h3>
             <p>Die Zahlen des Kreises Höxter werden täglich auf <a href="https://www.kreis-hoexter.de">seiner Homepage</a>
                 veröffentlicht, jedoch nicht archiviert. Bis zum 23. März 2020 wurden nur die Fallzahlen allein für den
@@ -2305,7 +2306,7 @@
                 <a href="https://github.com/CSSEGISandData/COVID-19">hier täglich</a> aktualisiert.
             </p>
         </div>
-        <div class="alert alert-info" role="alert">
+        <div class="alert alert-info shadow-sm" role="alert">
             <h3>Inkonsistenzen der Zahlen</h3>
             <p>Gelegentlich werden Zahlen von den Behörden nachträglich korrigiert, z.B. weil ein Erkrankter einer
                 anderen Gemeinde zugeordnet wird. Dann kommt es zu kleinen Inkonsistenzen in den Zahlen,
