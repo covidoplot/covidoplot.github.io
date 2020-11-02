@@ -3236,11 +3236,11 @@ a.text-dark:hover, a.text-dark:focus { color: #121416 !important; }
 
 .body > h3 { margin-top: 2rem; }
 
-.up, .down { font-size: 0.7rem; }
+.diff { font-size: 0.7rem; }
 
-.up:after { content: "↑"; font-size: 1rem; margin-left: .1rem; font-style: normal; }
+.diff-up:before { content: "↑"; font-size: 1rem; margin-left: .1rem; font-style: normal; float: left; }
 
-.down:after { content: "↓"; font-size: 1rem; margin-left: .1rem; font-style: normal; }
+.diff-down:before { content: "↓"; font-size: 1rem; margin-left: .1rem; font-style: normal; float: left; }
 
 .card { margin-bottom: 3rem; box-shadow: 0 1rem 1.5rem rgba(0, 0, 0, 0.9); }
 
@@ -3253,5 +3253,7 @@ a.text-dark:hover, a.text-dark:focus { color: #121416 !important; }
 .navbar.navbar-light { background-color: #f7f8f5; }
 
 .highlight { color: #59A52B; }
+
+.td-number { text-align: right; }
 
 /*# sourceMappingURL=main.css.map */
