@@ -9,7 +9,17 @@ $(document).ready(function(){
 
     // construct button template
     var btn = $('<button/>').addClass('btn btn-primary');
-    btn.click(function() {
+
+    // apply templates
+    nav = nav.insertBefore($('.choice img'));
+    btn.clone().appendTo(nav).text('1 Jahr');
+    btn.clone().appendTo(nav).text('1 Quartal');
+    btn.clone().appendTo(nav).text('1 Monat');
+    btn.clone().appendTo(nav).text('1 Woche');
+
+    // apply dynamics
+    // catch again as function is lost while cloning
+    $('.choice .btn').click(function() {
         $(this).addClass('active').siblings().removeClass('active');
         var image = $(this).parent().parent().find('img');
         var src = image.attr('src');
@@ -32,13 +42,5 @@ $(document).ready(function(){
         }
         var target = prefix + '-' + length + '.png';
         image.attr('src', target);
-    })
-
-    // apply templates
-    nav = nav.insertBefore($('.choice img'));
-    btn.appendTo(nav).text('1 Jahr');
-    btn.appendTo(nav).text('1 Quartal');
-    btn.appendTo(nav).text('1 Monat');
-    btn.appendTo(nav).text('1 Woche');
-
+    });
 });
