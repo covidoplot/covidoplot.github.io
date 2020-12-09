@@ -43,4 +43,7 @@ $(document).ready(function(){
         var target = prefix + '-' + length + '.png';
         image.attr('src', target);
     });
+
+    $('.choice .btn-group :first-child').click();
+
 });
