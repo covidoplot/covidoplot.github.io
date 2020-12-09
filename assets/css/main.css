@@ -3256,4 +3256,6 @@ a.text-dark:hover, a.text-dark:focus { color: #121416 !important; }
 
 .td-number { text-align: right; }
 
+.choice .choice-switch { display: block; text-align: right; }
+
 /*# sourceMappingURL=main.css.map */
