@@ -3244,7 +3244,9 @@ a.text-dark:hover, a.text-dark:focus { color: #121416 !important; }
 
 .card { margin-bottom: 3rem; box-shadow: 0 1rem 1.5rem rgba(0, 0, 0, 0.9); }
 
-.card .figure-caption { padding: 3rem; }
+.card .figure { text-align: center; }
+
+.card .figure .figure-caption { text-align: left; padding: 1rem; }
 
 .card .table caption { padding: 1rem; }
 
