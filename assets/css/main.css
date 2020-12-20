@@ -3260,6 +3260,6 @@ a.text-dark:hover, a.text-dark:focus { color: #121416 !important; }
 
 .choice .choice-switch { display: block; text-align: right; }
 
-.thead-sticky, .thead-sticky th { position: -webkit-sticky; position: -moz-sticky; position: -ms-sticky; position: -o-sticky; position: sticky; top: 1px; }
+.thead-sticky th { position: -webkit-sticky; position: -moz-sticky; position: -ms-sticky; position: -o-sticky; position: sticky; top: 1px; }
 
 /*# sourceMappingURL=main.css.map */
